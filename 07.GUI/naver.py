@@ -58,7 +58,7 @@ class MainDialog(QDialog):
             wb = openpyxl.Workbook()
             ws = wb.active # 활성화된 시트 선택
             ws.title = keyword # 시트 이름 변경
-            ws.append(['날짜','제목','링크','내용'])
+            ws.append(['제목','링크','날짜','내용'])
             for res in self.result:
                     ws.append(res)
             wb.save(f'{keyword}.xlsx')
