@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>958</width>
+    <width>700</width>
     <height>809</height>
    </rect>
   </property>
@@ -16,7 +16,7 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>320</x>
+     <x>175</x>
      <y>170</y>
      <width>331</width>
      <height>171</height>
@@ -33,11 +33,14 @@
    <property name="text">
     <string>Gmacro</string>
    </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
   </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>220</x>
+     <x>100</x>
      <y>370</y>
      <width>151</width>
      <height>81</height>
@@ -56,7 +59,7 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>220</x>
+     <x>100</x>
      <y>470</y>
      <width>161</width>
      <height>81</height>
@@ -75,7 +78,7 @@
   <widget class="QLineEdit" name="xpoint">
    <property name="geometry">
     <rect>
-     <x>410</x>
+     <x>290</x>
      <y>380</y>
      <width>271</width>
      <height>71</height>
@@ -90,11 +93,17 @@
    <property name="text">
     <string/>
    </property>
+   <property name="maxLength">
+    <number>4</number>
+   </property>
+   <property name="frame">
+    <bool>true</bool>
+   </property>
   </widget>
   <widget class="QLineEdit" name="ypoint">
    <property name="geometry">
     <rect>
-     <x>410</x>
+     <x>290</x>
      <y>470</y>
      <width>271</width>
      <height>71</height>
@@ -109,11 +118,14 @@
    <property name="text">
     <string/>
    </property>
+   <property name="maxLength">
+    <number>4</number>
+   </property>
   </widget>
   <widget class="QPushButton" name="StartButton">
    <property name="geometry">
     <rect>
-     <x>320</x>
+     <x>200</x>
      <y>590</y>
      <width>321</width>
      <height>81</height>
@@ -129,69 +141,6 @@
     <string>Move Mouse</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_4">
-   <property name="geometry">
-    <rect>
-     <x>730</x>
-     <y>370</y>
-     <width>171</width>
-     <height>81</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Agency FB</family>
-     <pointsize>36</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>0~2560</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_5">
-   <property name="geometry">
-    <rect>
-     <x>730</x>
-     <y>460</y>
-     <width>161</width>
-     <height>81</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Agency FB</family>
-     <pointsize>36</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>0~1600</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_6">
-   <property name="geometry">
-    <rect>
-     <x>-100</x>
-     <y>530</y>
-     <width>681</width>
-     <height>291</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap resource="pic.qrc">:/newPrefix/109285971.1.jpg</pixmap>
-   </property>
-  </widget>
-  <zorder>label_6</zorder>
-  <zorder>label</zorder>
-  <zorder>label_2</zorder>
-  <zorder>label_3</zorder>
-  <zorder>xpoint</zorder>
-  <zorder>ypoint</zorder>
-  <zorder>StartButton</zorder>
-  <zorder>label_4</zorder>
-  <zorder>label_5</zorder>
  </widget>
  <resources>
   <include location="pic.qrc"/>
